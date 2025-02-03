@@ -1,0 +1,76 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.container{
+  background-color: #1B244A;
+  max-width: 575px;
+  height: 350px;
+  padding: 20px;
+  margin: 30px auto;
+  display: flex ;
+  justify-content: space-around;
+  text-align: center;
+  border: 5px solid #9AABD8;
+  border-radius: 10px;
+  box-shadow: 5px -5px 3px black;
+}
+.skin{
+  max-width:700px;
+  padding: 20px;
+  background-color:  #1B244A;
+  border: 5px solid #9AABD8;
+  border-radius: 10px;
+  box-shadow: 5px -5px 3px black;
+  margin: 80px auto;
+}
+.control{
+  display: flex;
+  justify-content: center;
+  gap: 1rem ;
+}
+.control>*{
+  background-color: white;
+  border: 3px solid #F94F6D;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container > *{
+  padding: 50px;
+  width: 180px;
+  text-align: center;
+}
+.increment{
+  display: flex;
+  justify-content: space space-between;
+  padding: 20px;
+  width: 155px;
+  margin:auto;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.increment > *{
+  background-color: #1B244A;
+  color: #9AABD8;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px 5px;
+}
+.timer{
+  text-align: center;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.score{
+  background-color: black;
+  color: #F94F6D;
+  width: 150px;
+  height: 120px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 3rem;
+}
+button{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+}
