@@ -52,7 +52,7 @@ if (home_score > guest_score){
   document.getElementById('leader').textContent="Leader: Home"
 }
 else if (guest_score > home_score){
-  document.getElementById('leader').textContent = "Leader: Guest"
+  document.getElementById('leader').textContent = "Leader: Away"
 }
 else{
   document.getElementById('leader').textContent="Leader: Tie"
